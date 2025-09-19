@@ -1,28 +1,17 @@
 # Node modules
 node_modules/
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Build output (if backend generates any)
+dist/
+build/
 
-# Environment variables
+# Local environment variables
 .env
 .env.local
 .env.*.local
 
-# Build output
-dist/
-build/
-coverage/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE configs (optional)
-.vscode/
-.idea/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
