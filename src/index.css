@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.card-fade { transition: transform .18s ease, box-shadow .18s ease; }
+.card-fade:hover { transform: translateY(-6px); box-shadow: 0 14px 30px rgba(2,6,23,0.08); }
+.modal-backdrop { background: rgba(0,0,0,0.45); }
