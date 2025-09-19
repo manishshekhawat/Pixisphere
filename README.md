@@ -1,12 +1,71 @@
-# React + Vite
+# Pixisphere (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pixisphere is a photography showcase and portfolio web application.  
+This repository contains the **frontend**, built using [Vite](https://vitejs.dev/) + [React](https://react.dev/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+Frontend (Vercel): [https://pixisphere-gamma.vercel.app/](https://pixisphere-gamma.vercel.app/)  
+Backend (Render): [https://pixisphere-1-ywo1.onrender.com/api/photographers](https://pixisphere-1-ywo1.onrender.com/api/photographers)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+Pixisphere/
+│── public/ # Static assets
+│── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page-level components
+│ ├── App.jsx # Root component
+│ ├── main.jsx # Entry point
+│── .gitignore
+│── package.json
+│── vite.config.js
+│── README.md
+
+
+
+
+
+---
+
+## ⚙️ Tech Stack
+- **Frontend Framework**: React (with Vite)
+- **Styling**: CSS / Tailwind (if used)
+- **Deployment**: Vercel
+- **Backend API**: Express + MongoDB (hosted on Render)
+
+---
+
+## 🔧 Setup & Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/manishshekhawat/Pixisphere.git
+   cd Pixisphere
+
+
+
+Install dependencies
+npm install
+
+
+Run the project (development)
+npm run dev
+
+
+Build for production
+npm run build
+
+
+Preview the production build
+npm run preview
+
+
+Features
+
+📸 Display photographers from backend
+🔍 View details dynamically
+🎨 Responsive design for all devices
+🚀 Fast builds with Vite
