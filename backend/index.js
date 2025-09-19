@@ -6,7 +6,13 @@ const mongoose = require("mongoose");
 
 const cors=require("cors");
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://pixisphere-gamma.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 const photographerRoutes = require("./routes/photographers");
 
